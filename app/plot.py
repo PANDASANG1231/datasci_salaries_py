@@ -4,7 +4,7 @@ import altair as alt
 import geopandas as gpd
 
 
-data = pd.read_csv("./../data/cleaned_salaries.csv")
+data = pd.read_csv("./data/cleaned_salaries.csv")
 
 def plot_11(xmax):
     
